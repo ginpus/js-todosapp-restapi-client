@@ -27,18 +27,3 @@ async function changeTodoState(newState, id) {
     });
     return response.json();
 }
-
-// async function completeTodo(id) {
-//     const url = 'https://localhost:5001/todos/' + id + '/status';
-//     console.log(url);
-//     const response = await fetch(url, {
-//         method: "PUT",
-//         body: JSON.stringify({
-//             isDone: true,
-//         }),
-//         headers: {
-//             "Content-type": "application/json; charset=UTF-8",
-//         },
-//     });
-//     return response.json();
-// }
